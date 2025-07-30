@@ -19,7 +19,7 @@ participant server
     server-->>browser: the js file
     deactivate server
 
-    broser->>server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
+    browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
     activate server
     server-->>browser: the json file
     deactivate server
